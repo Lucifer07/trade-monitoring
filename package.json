@@ -1,0 +1,28 @@
+{
+  "name": "trading-monitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for Monitoring and Manual Trading",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "trading",
+    "binance",
+    "bot"
+  ],
+  "author": "Sebas",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.11.3",
+    "ioredis": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "binance-api-node": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
